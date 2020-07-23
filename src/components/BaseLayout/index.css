@@ -1,0 +1,26 @@
+.content {
+  background-color: #F9F6F6;
+}
+
+.first-header {
+  background: rgba(255, 255, 255, 0.3), url('../../images/slideshow1.jpg') ;
+}
+
+.second-header {
+  background: url('../../images/slideshow2.jpg'), rgba(255, 255, 255, 0.3);
+}
+
+.third-header {
+  background: rgba(255, 255, 255, 0.3), url('../../images/slideshow3.jpg') ;
+}
+
+.fourth-header {
+  background: rgba(255, 255, 255, 0.3), url('../../images/slideshow4.jpg') ;
+}
+
+.first-header, .second-header, .third-header, .fourth-header {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+}
